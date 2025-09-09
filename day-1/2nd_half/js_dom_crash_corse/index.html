@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Selecting HTML Elements</title>
+   <style>
+		.coffee {
+			background: brown;
+		}
+		.javaScript{
+			background-color: red;
+		}
+	</style>
+   <!-- <script src="js/main.js" defer></script> -->
+</head>
+
+<body>
+   <!--start selecting-html-elements-->
+   <ul id="colors">
+      <li class="primary">Red</li>
+      <li class="primary">Green</li>
+      <li class="primary">Blue</li>
+      <li>Yellow</li>
+      <li>Magenta</li>
+      <li>Cyan</li>
+   </ul>
+   <ul id="cars">
+      <li>sedan</li>
+      <li>hatch</li>
+      <li>wagon</li>
+   </ul>
+   <!--end selecting-html-elements -->
+   <!--start closer-look-at-elements -->
+   <p class="introduction">Welcome to your course on the JavaScript DOM.</p>
+   <p>Please enter your name below.</p>
+   <input type="text" placeholder="Enter your name..." />
+   <!--end closer-look-at-elements-->
+   <!--start getting-data-form-elements-->
+   <div class="card">
+      <div class="name" title="I am Adam Jones">
+         Adam Jones
+      </div>
+      <ul class="skills">
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+      </ul>
+   </div>
+   <!--end getting-data-form-elements-->
+
+   <!--start updating-elements-->
+   <div class="card">
+		<div class="name" title="I am Adam Jones">Adam Jones</div>
+		<ul class="skills">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li class="javaScript">JavaScript</li>
+		</ul>
+	</div>
+   <!--end updating-elements-->
+
+   <!--start creating-elements-->
+
+   <!--end creating-elements-->
+
+
+   <!--start deleting-elements-->
+   <div class="card">
+		<div class="name" title="I am Adam Jones">Adam Jones</div>
+		<ul class="skills">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ul>
+	</div>
+   <!--end deleting-elements-->
+
+   <!--start events-1-->
+   Check if your username is available:<br><br>
+	<input type="text" class="username" placeholder="Username" />
+	<button type="submit" class="check-username">Check</button>
+
+   <!--end events-1-->
+
+   <!--start events-2-->
+   Check if your username is available:<br><br>
+	<input type="text" class="username" placeholder="Username" />
+	<button type="submit" class="check-username">Check</button>
+   <!--end events-2-->
+   <!--start events-3 -->
+   Signup with your username:<br><br>
+	<form action="./" method="get">
+		<input type="text" class="username" placeholder="Username" />
+		<button type="submit" class="signup">Sign Up</button>
+	</form>
+   <!--end events-3 -->
+
+   <!--start miscellaneous-featurs-lecture-1 -->
+   <p id="theParagraphCon">This is a paragraph.</p>
+   <!--end miscellaneous-featurs-lecture-1 -->
+
+   <!--start miscellaneous-featurs-lecture-2 -->
+   
+   <!--end miscellaneous-featurs-lecture-2 -->
+
+   <!--start miscellaneous-featurs-lecture-3 -->
+   <button type="button" data-message="Welcome to the website" data-the-message="This is new title.">Click Me</button>
+   <!--end miscellaneous-featurs-lecture-3 -->
+
+   <script src="js/main.js"></script>
+</body>
+
+</html>
